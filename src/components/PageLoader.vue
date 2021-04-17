@@ -4,6 +4,7 @@
     <div class="cube"></div>
     <div class="cube"></div>
     <div class="cube"></div>
+    
   </div> 
 </template>
 
@@ -16,9 +17,10 @@
     },
     mounted() {
       document.onreadystatechange = () => {
-        if (document.readyState == "complete") { 
+       /* if (document.readyState == "complete"){*/  
           this.isloaded = true;
-        } 
+        //} 
+
       }
     },
   }
